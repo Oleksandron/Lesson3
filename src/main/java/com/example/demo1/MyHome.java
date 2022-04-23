@@ -2,6 +2,10 @@ package com.example.demo1;
 
 public class MyHome {
 
+    public static int summ(int app, int section, int floor) {
+        return app + section + floor;// сумма квартир, этажей и секций
+    }
+
     public String  color;    //  цвет(коричневый)
     public String  form;     //  форма здания(прямоугольник)
     public Integer section;  // секций(подьездов)
@@ -63,3 +67,6 @@ public class MyHome {
     }
 
 }
+
+
+
