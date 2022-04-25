@@ -1,10 +1,6 @@
 package com.example.demo1;
 
 public class MyHome {
-
-    public  static void city(){
-        System.out.println("My city - Kyiv");
-    }
     public String  color;    //  цвет(коричневый)
     public String  form;     //  форма здания(прямоугольник)
     public Integer section;  // секций(подьездов)
@@ -49,6 +45,8 @@ public class MyHome {
                 ", app=" + app +
                 ", year=" + year +
                 '}';
+    }public  static void city(){
+        System.out.println("My city - Kyiv");
     }
 
     public static void main (String[] args) {
