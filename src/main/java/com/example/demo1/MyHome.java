@@ -2,10 +2,9 @@ package com.example.demo1;
 
 public class MyHome {
 
-    public static int summ(int app, int section, int floor) {
-        return app + section + floor;// сумма квартир, этажей и секций
+    public  static void city(){
+        System.out.println("My city - Kyiv");
     }
-
     public String  color;    //  цвет(коричневый)
     public String  form;     //  форма здания(прямоугольник)
     public Integer section;  // секций(подьездов)
@@ -63,9 +62,9 @@ public class MyHome {
         System.out.println(MyHome2.toString());
         System.out.println(MyHome3.toString());
         System.out.println(MyHome4.toString());
-        MyHome1.srtq();// TODO: 17.04.2022  
+        MyHome1.srtq();// TODO: 17.04.2022
+        city();
     }
-
 }
 
 
