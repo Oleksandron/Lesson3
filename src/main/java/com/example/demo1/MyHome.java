@@ -45,10 +45,10 @@ public class MyHome {
                 ", app=" + app +
                 ", year=" + year +
                 '}';
-    }public  static void city(){
+    }
+    public  static void city(){
         System.out.println("My city - Kyiv");
     }
-
     public static void main (String[] args) {
 
         MyHome MyHome1 = new MyHome("Brown","Rectangle",3,25,370,2011);
@@ -62,6 +62,8 @@ public class MyHome {
         System.out.println(MyHome4.toString());
         MyHome1.srtq();// TODO: 17.04.2022
         city();
+        Summa.summ = 1845;
+        System.out.println(Summa.summ);
     }
 }
 
